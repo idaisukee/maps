@@ -15,4 +15,5 @@ keycode 44 = h H Down
 keycode 45 = t T Up
 keycode 46 = n N Right
 keycode 57 = b B BackSpace
+keycode  58 = m M Return
 
