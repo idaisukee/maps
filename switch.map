@@ -17,3 +17,6 @@ keycode 46 = n N Right
 keycode 57 = b B BackSpace
 keycode 58 = m M Return
 
+
+
+keycode 61 = z Z Scroll_Lock
