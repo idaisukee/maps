@@ -1,0 +1,13 @@
+keycode   9 = Escape NoSymbol Escape
+keycode  23 = Tab ISO_Left_Tab Tab ISO_Left_Tab
+keycode  37 = Control_L NoSymbol Control_L
+keycode  50 = Shift_L NoSymbol Shift_L
+keycode 102 = Muhenkan NoSymbol Muhenkan
+keycode  64 = Alt_L Meta_L Alt_L Meta_L
+keycode  65 = space NoSymbol space
+keycode 108 = Alt_R Meta_R Alt_R Meta_R
+keycode  62 = Shift_R NoSymbol Shift_R
+keycode  36 = Return NoSymbol Return
+keycode  22 = BackSpace BackSpace BackSpace BackSpace
+keycode  49 = grave asciitilde grave asciitilde
+
