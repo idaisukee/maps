@@ -1,0 +1,47 @@
+keycode = 9 = Escape
+keycode = 107 = Print
+keycode = 78 = Scroll_Lock
+keycode = 127 = Pause
+keycode = 118 = Backspace
+keycode = 110 = Home
+keycode = 112 = Prior
+
+keycode = 67 = F1
+keycode = 68 = F2
+keycode = 69 = F3
+keycode = 70 = F4
+keycode = 71 = F5
+keycode = 72 = F6
+keycode = 73 = F7
+keycode = 74 = F8
+keycode = 75 = F9
+keycode = 76 = F10
+keycode = 95 = F11
+keycode = 96 = F12
+keycode = 119 = Delete
+keycode = 115 = End
+keycode = 117 = Next
+
+keycode  49 = Escape NoSymbol Escape
+keycode  23 = Alt_R Meta_R Alt_R Meta_R
+keycode  66 = Control_L NoSymbol Control_L
+keycode  50 = Shift_L NoSymbol Shift_L
+keycode  37 = Super_L NoSymbol Caps_Lock
+keycode  64 = Alt_L Meta_L Alt_L Meta_L
+keycode 102 = Muhenkan NoSymbol Muhenkan
+keycode  65 = space NoSymbol space
+keycode 100 = Henkan_Mode NoSymbol Henkan_Mode
+keycode 101 = Hiragana_Katakana NoSymbol Hiragana_Katakana
+keycode 108 = Tab ISO_Left_Tab Tab ISO_Left_Tab
+keycode 105 = Control_R NoSymbol Control_R
+keycode  62 = Shift_R NoSymbol Shift_R
+keycode  36 = Return NoSymbol Return
+keycode  22 = grave asciitilde grave asciitilde
+
+keycode 166 = XF86Back
+keycode 167 = XF86Forward
+
+keycode 113 = Left
+keycode 116 = Down
+keycode 111 = Up
+keycode 114 = Right
