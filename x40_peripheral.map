@@ -2,7 +2,7 @@ keycode   9 = Escape
 keycode 107 = Print
 keycode  78 = Scroll_Lock
 keycode 127 = Pause
-keycode 118 = Backspace
+keycode 118 = BackSpace
 keycode 110 = Home
 keycode 112 = Prior
 
