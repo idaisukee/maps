@@ -36,7 +36,7 @@ keycode 108 = Tab ISO_Left_Tab Tab ISO_Left_Tab
 keycode 105 = Super_R NoSymbol Super_R
 keycode  97 = Shift_R NoSymbol Shift_R
 keycode  62 = Shift_R NoSymbol Shift_R
-keycode  51 = grave asciitilde grave asciitilde
+keycode  51 = Control_R NoSymbol Control_R
 keycode  36 = Return NoSymbol Return
 keycode  22 = grave asciitilde grave asciitilde
 
