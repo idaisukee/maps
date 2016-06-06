@@ -4,5 +4,5 @@ add Control = Control_L Control_R
 add Shift = Shift_L Shift_R
 clear Lock
 clear Mod4
-add Mod4 = Super_L
+add Mod4 = Super_L Super_R
 
