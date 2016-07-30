@@ -1,0 +1,221 @@
+<?xml version="1.0"?>
+<root>
+  <item>
+    <name>Swap Space and Tab</name>
+    <identifier>private.swap_space_and_tab</identifier>
+    <autogen>__KeyToKey__ KeyCode::SPACE, KeyCode::TAB</autogen>
+    <autogen>__KeyToKey__ KeyCode::TAB, KeyCode::SPACE</autogen>
+  </item>
+
+  <item>
+    <name>Swap Option and Tab</name>
+    <identifier>private.swap_option_and_tab</identifier>
+    <autogen>__KeyToKey__ KeyCode::OPTION_L, KeyCode::TAB</autogen>
+    <autogen>__KeyToKey__ KeyCode::TAB, KeyCode::OPTION_L</autogen>
+  </item>
+
+  <item>
+    <name>Change Right Command Key to Escape</name>
+    <identifier>private.right_command_to_escape</identifier>
+    <autogen>__KeyToKey__ KeyCode::COMMAND_R, KeyCode::ESCAPE</autogen>
+  </item>
+
+  <item>
+    <name>Change C-b to Delete</name>
+    <identifier>private.c-b_to_delete</identifier>
+    <not>EMACS</not>
+    <autogen>
+      __KeyToKey__
+      KeyCode::N, ModifierFlag::CONTROL_L,
+      KeyCode::DELETE
+    </autogen>
+  </item>
+
+  <item>
+    <name>Change C-r to ForwardDelete</name>
+    <identifier>private.c-r_to_forwarddelete</identifier>
+    <not>EMACS</not>
+    <autogen>
+      __KeyToKey__
+      KeyCode::O, ModifierFlag::CONTROL_L,
+      KeyCode::FORWARD_DELETE
+    </autogen>
+  </item>
+
+  <item>
+    <name>Change C-s to Command-f</name>
+    <identifier>private.c-s_to_command-f</identifier>
+    <not>EMACS</not>
+    <autogen>
+      __KeyToKey__
+      KeyCode::SEMICOLON, ModifierFlag::CONTROL_L,
+      KeyCode::Y, ModifierFlag::COMMAND_R
+    </autogen>
+  </item>
+
+  <item>
+    <name>C-d to Left Change</name>
+    <identifier>private.c-d_to_left</identifier>
+    <not>EMACS</not>
+    <autogen>
+      __KeyToKey__
+      KeyCode::H, ModifierFlag::CONTROL_L,
+      KeyCode::CURSOR_LEFT
+    </autogen>
+  </item>
+
+  <item>
+    <name>Change C-h to Down</name>
+    <identifier>private.c-h_to_down</identifier>
+    <not>EMACS</not>
+    <autogen>
+      __KeyToKey__
+      KeyCode::J, ModifierFlag::CONTROL_L,
+      KeyCode::CURSOR_DOWN
+    </autogen>
+  </item>
+
+  <item>
+    <name>Change C-t to Up</name>
+    <identifier>private.c-t_to_up</identifier>
+    <not>EMACS</not>
+    <autogen>
+      __KeyToKey__
+      KeyCode::K, ModifierFlag::CONTROL_L,
+      KeyCode::CURSOR_UP
+    </autogen>
+  </item>
+
+  <item>
+    <name>Change C-n to Right</name>
+    <identifier>private.c-l_to_right</identifier>
+    <not>EMACS</not>
+    <autogen>
+      __KeyToKey__
+      KeyCode::L, ModifierFlag::CONTROL_L,
+      KeyCode::CURSOR_RIGHT
+    </autogen>
+  </item>
+
+  <item>
+    <name>Change C-o to PageDown</name>
+    <identifier>private.c-s_to_pagedown</identifier>
+    <not>EMACS</not>
+    <autogen>
+      __KeyToKey__
+      KeyCode::S, ModifierFlag::CONTROL_L,
+      KeyCode::PAGEDOWN
+    </autogen>
+  </item>
+
+  <item>
+    <name>Change C-e to PageDown</name>
+    <identifier>private.c-d_to_pageup</identifier>
+    <not>EMACS</not>
+    <autogen>
+      __KeyToKey__
+      KeyCode::D, ModifierFlag::CONTROL_L,
+      KeyCode::PAGEUP
+    </autogen>
+  </item>
+
+  <item>
+    <name>Change C-a to Home</name>
+    <identifier>private.c-a_to_home</identifier>
+    <not>EMACS</not>
+    <autogen>
+      __KeyToKey__
+      KeyCode::A, ModifierFlag::CONTROL_L,
+      KeyCode::A, ModifierFlag::CONTROL_L,
+    </autogen>
+  </item>
+
+  <item>
+    <name>Change C-u to End</name>
+    <identifier>private.c-f_to_end</identifier>
+    <not>EMACS</not>
+    <autogen>
+      __KeyToKey__
+      KeyCode::F, ModifierFlag::CONTROL_L,
+      KeyCode::D, ModifierFlag::CONTROL_L
+    </autogen>
+  </item>
+
+  <item>
+    <name>Change C-q to Control-Shift-Tab</name>
+    <identifier>private.c-x_to_control_shift_tab</identifier>
+    <not>EMACS</not>
+    <autogen>
+      __KeyToKey__
+      KeyCode::X, ModifierFlag::CONTROL_L,
+      KeyCode::TAB, ModifierFlag::CONTROL_L, ModifierFlag::SHIFT_L
+    </autogen>
+  </item>
+
+  <item>
+    <name>Change C-j to Control-Tab</name>
+    <identifier>private.c-c_to_control_tab</identifier>
+    <not>EMACS</not>
+    <autogen>
+      __KeyToKey__
+      KeyCode::C, ModifierFlag::CONTROL_L,
+      KeyCode::TAB, ModifierFlag::CONTROL_L, 
+    </autogen>
+  </item>
+
+  <item>
+    <name>Change C-, to Cmd-c</name>
+    <identifier>private.c-comma_to_cmd_i</identifier>
+    <not>EMACS</not>
+    <autogen>
+      __KeyToKey__
+      KeyCode::W, ModifierFlag::CONTROL_L,
+      KeyCode::I, ModifierFlag::COMMAND_R
+    </autogen>
+  </item>
+
+  <item>
+    <name>Change C-. to Cmd-x</name>
+    <identifier>private.c-period_to_cmd_x</identifier>
+    <not>EMACS</not>
+    <autogen>
+      __KeyToKey__
+      KeyCode::E, ModifierFlag::CONTROL_L,
+      KeyCode::B, ModifierFlag::COMMAND_R
+    </autogen>
+  </item>
+
+  <item>
+    <name>Change C-p to Cmd-v</name>
+    <identifier>private.c-p_to_cmd_period</identifier>
+    <not>EMACS</not>
+    <autogen>
+      __KeyToKey__
+      KeyCode::R, ModifierFlag::CONTROL_L,
+      KeyCode::DOT, ModifierFlag::COMMAND_R
+    </autogen>
+  </item>
+
+  <item>
+    <name>C-; -> close tab</name>
+    <identifier>private.c-semicolon_to_close_tab</identifier>
+	<only>GOOGLE_CHROME</only>
+    <autogen>
+      __KeyToKey__
+      KeyCode::Z, ModifierFlag::CONTROL_L,
+      KeyCode::COMMA, ModifierFlag::COMMAND_R
+    </autogen>
+  </item>
+
+  <item>
+    <name>C-k -> new tab</name>
+    <identifier>private.c-k_to_new_tab</identifier>
+	<only>GOOGLE_CHROME</only>
+    <autogen>
+      __KeyToKey__
+      KeyCode::V, ModifierFlag::CONTROL_L,
+      KeyCode::K, ModifierFlag::COMMAND_R
+    </autogen>
+  </item>
+
+</root>
