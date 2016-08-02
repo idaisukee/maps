@@ -1,6 +1,6 @@
 keycode   9 = Escape
 keycode 107 = Print
-keycode  78 = Scroll_Lock
+keycode  78 = Return NoSymbol Return
 keycode 127 = Pause
 keycode 118 = BackSpace
 keycode 110 = Home
@@ -37,7 +37,7 @@ keycode 105 = Super_R NoSymbol Super_R
 keycode  97 = Shift_R NoSymbol Shift_R
 keycode  62 = Shift_R NoSymbol Shift_R
 keycode  51 = Control_R NoSymbol Control_R
-keycode  36 = Return NoSymbol Return
+keycode  36 = Alt_R Meta_R Alt_R Meta_R
 keycode  22 = grave asciitilde grave asciitilde
 
 keycode 166 = XF86Back
