@@ -2,6 +2,10 @@ keycode 100 = Mode_switch NoSymbol Mode_switch
 keycode 102 = Mode_switch NoSymbol Mode_switch
 keycode 151 = Mode_switch NoSymbol Mode_switch
 
+keycode  25 = comma less XF86_Copy
+keycode  26 = period greater XF86_Cut
+keycode  27 = p P XF86_Paste
+
 keycode 38 = a A Home
 keycode 39 = o O Next
 keycode 40 = e E Prior
