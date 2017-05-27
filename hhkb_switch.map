@@ -1,0 +1,20 @@
+keycode 64 = Mode_switch NoSymbol Mode_switch
+
+keycode 38 = a A Home
+keycode 39 = o O Next
+keycode 40 = e E Prior
+keycode 41 = u U End
+keycode 42 = i I Tab
+
+
+keycode 32 = r R Delete
+keycode 43 = d D Left
+keycode 44 = h H Down
+keycode 45 = t T Up
+keycode 46 = n N Right
+keycode 57 = b B BackSpace
+keycode 58 = m M Return
+
+
+
+keycode 61 = z Z Scroll_Lock
